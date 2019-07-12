@@ -1,0 +1,67 @@
+{
+  "name": "styled-conditions",
+  "version": "1.0.0",
+  "description": "Flag utility for emotion CSS-in-JS to conditionally apply styles",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "source": "lib/index.js",
+  "scripts": {
+    "build": "npm run build:clean && microbundle --sourcemap false --globals @emotion/core=core lib/index.js",
+    "build:clean": "rimraf dist",
+    "lint": "eslint ./",
+    "test": "ava",
+    "test:watch": "ava --watch --verbose --serial",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karolisgrinkevicius/styled-conditions.git"
+  },
+  "keywords": [
+    "emotion",
+    "css-in-js",
+    "flags",
+    "conditional css in js",
+    "emotion react props",
+    "emotion flags",
+    "dynamic css",
+    "react"
+  ],
+  "author": "Karolis Grinkevičius <k.grinkevicius@gmail.com> (https://www.karolisg.lt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karolisgrinkevicius/styled-conditions/issues"
+  },
+  "homepage": "https://github.com/karolisgrinkevicius/styled-conditions#readme",
+  "devDependencies": {
+    "@emotion/core": "^10.0.14",
+    "@styled-system/theme-get": "^5.0.12",
+    "ava": "^2.2.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-recommended": "^4.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "esm": "^3.2.25",
+    "husky": "^3.0.0",
+    "microbundle": "^0.11.0",
+    "pretty-quick": "^1.11.1",
+    "react": "^16.8.6",
+    "rimraf": "^2.6.3"
+  },
+  "peerDependencies": {
+    "@emotion/core": "^10.0.0",
+    "react": ">=16.3.0"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test && npm run lint && pretty-quick --staged"
+    }
+  }
+}

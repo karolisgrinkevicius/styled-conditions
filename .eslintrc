@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "esnext",
+    "esnext/style-guide",
+    "node",
+    "node/style-guide",
+    "prettier"
+  ],
+  "rules": {
+    "indent": ["error", 2],
+    "curly": ["error", "all"],
+    "template-curly-spacing": ["error", "never"],
+    "sort-imports": "off",
+    "import/prefer-default-export": "off",
+    "no-console": "error"
+  }
+}
