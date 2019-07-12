@@ -3,7 +3,7 @@
   Styled Conditions
 
 [![npm](https://img.shields.io/npm/v/styled-conditions.svg?style=flat-square)](https://www.npmjs.com/package/styled-conditions)
-[![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/styled-conditions.svg?style=flat-square)](https://www.npmjs.com/package/styled-conditions) [![Travis CI Build](https://img.shields.io/travis/karolisgrinkevicius/styled-conditions.svg?style=flat-square)](https://travis-ci.org/karolisgrinkevicius/styled-conditions)
+[![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/styled-conditions.svg?style=flat-square)](https://www.npmjs.com/package/styled-conditions) [![Travis CI Build](https://travis-ci.com/karolisgrinkevicius/styled-conditions.svg?style=flat-square)](https://travis-ci.org/karolisgrinkevicius/styled-conditions)
 ![](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
