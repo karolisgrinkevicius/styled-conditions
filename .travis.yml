@@ -7,3 +7,11 @@ script:
   - npm run lint
   - npm test
   - npm run build
+deploy:
+  provider: npm
+  email: k.grinkevicius@gmail.com
+  api_key:
+    secure: XMaX40Fa+kzgb1iLaAT8d5AlvGq6JlhHQ73Q8fZbnORB62dGZRjhqIJdzAlGs/HEompfnlVDpPC/cPeBbI68QI6/jUN+qmeSgQsXWOY7mgFgu/rysCUEtDWdtYuQsHzeVA8ShjR2F+Gyuq3d/yTox29Z0J+JHY6KA5lXsZE06k08peOhYsVOv2lwTCHTH7ZiRrbGNig82STYWOrzj8K1BTtkWf4ew1c2A7/r4vYjIij4nek+HOJKwK8sonMQwhBwLYhpDCaSsaG5xmqrrGHS2JR2vZMGouAWgttznT//LKqKPVqHLXqqCO5PUmtpSmLzMRrNoClFjAncKRU3BS5jkXzPeBRsSGznMv3uoSEi7c0qVECm20nTQ6hNVOL/vXw6YW083NOUEhqD+qfzHIjN2VtSADAWcRxTbOMXjoovkcIDJv0D3uUi56zA1hpgKBSsj6I7qWbxbnYHyrJwLHzsF1UMvYNVMbu03/DzYX8VF0g9RjfhmcHrLiZuHGnEUGKQY9SH7XwCEaH4HdHiyvcfCfgWdTzOIp8WXgDJPCRa0G3W7xCGTVv0QODzbpPacGN5LjhGFcMSDS27jXBl7aR2PLJdYvE0KOYVkCXL9LjlwyJeOllzoYAGdTBxdXjCAFmGK1l2UDIaGVd+HrJo/KZoYHxNHmDnzV4HZuPT8C/RbQE=
+  on:
+    tags: true
+    repo: karolisgrinkevicius/styled-conditions

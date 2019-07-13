@@ -11,12 +11,14 @@
     "build:clean": "rimraf dist",
     "lint": "eslint ./",
     "test": "ava",
-    "test:watch": "ava --watch --verbose --serial",
-    "prepublishOnly": "npm run build"
+    "test:watch": "ava --watch --verbose --serial"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/karolisgrinkevicius/styled-conditions.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "emotion",
