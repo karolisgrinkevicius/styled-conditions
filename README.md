@@ -43,10 +43,6 @@ const Button = styled(MyComponent)`
 `;
 ```
 
-## Contribution
-
-TBD
-
 ## License
 
 [MIT](LICENSE)
