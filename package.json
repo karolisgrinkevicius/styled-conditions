@@ -9,7 +9,7 @@
   "scripts": {
     "build": "npm run build:clean && microbundle --sourcemap false --globals @emotion/core=core lib/index.js",
     "build:clean": "rimraf dist",
-    "lint": "eslint ./",
+    "lint": "eslint lib",
     "test": "ava",
     "test:watch": "ava --watch --verbose --serial"
   },
