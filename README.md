@@ -14,16 +14,8 @@ to conditionally apply css depending on [React](https://github.com/facebook/reac
 
 ## Install
 
-### npm
-
 ```sh
 npm i --save styled-conditions
-```
-
-### yarn
-
-```sh
-yarn add styled-conditions
 ```
 
 ## Usage
