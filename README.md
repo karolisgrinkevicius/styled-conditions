@@ -9,7 +9,7 @@
 
 </h1>
 
-Flag utility for [emotion](https://github.com/emotion-js/emotion) CSS-in-JS
+Ultra-lightweight dependency-free flag utility for [emotion](https://github.com/emotion-js/emotion) CSS-in-JS
 to conditionally apply css depending on [React](https://github.com/facebook/react) props including support for [styled-system](https://styled-system.com).
 
 ## Install
