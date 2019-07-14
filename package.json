@@ -3,11 +3,9 @@
   "version": "1.0.2",
   "description": "Flag utility for emotion CSS-in-JS to conditionally apply styles",
   "main": "dist/index.js",
-  "umd:main": "dist/index.umd.js",
-  "module": "dist/index.mjs",
   "source": "lib/index.js",
   "scripts": {
-    "build": "npm run build:clean && microbundle --sourcemap false --globals @emotion/core=core lib/index.js",
+    "build": "npm run build:clean && microbundle --compress -f cjs --sourcemap false --globals @emotion/core=core lib/index.js",
     "build:clean": "rimraf dist",
     "lint": "eslint lib",
     "test": "ava",
