@@ -22,7 +22,7 @@ npm i --save styled-conditions
 
 ```js
 import styled from '@emotion/styled';
-import { is } from 'styled-conditions';
+import { is, isNot } from 'styled-conditions';
 
 const Button = styled(MyComponent)`
   ${is('black')`
